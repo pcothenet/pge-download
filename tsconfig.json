@@ -8,8 +8,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "lib": ["es6", "esnext"],
-    "target": "es6"
+    "target": "es2018"
   },
-  "include": ["lib/**/*"],
+  "include": ["lib/**/*", "test/cookie.ts"],
   "exclude": ["node_modules", "dist"]
 }
